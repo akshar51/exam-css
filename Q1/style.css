@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+    border: 1px solid #ca9494;
+    width: 300px;
+    height: 500px;
+    border-radius: 8px;
+    backdrop-filter: blur(14px);
+    
+    
+    
+}
+
+
+form{
+     margin-top: 20px;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    border: none;
+    color: gray;
+}
+
+
+form>input{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(227, 166, 166);
+    outline: none;
+}
+
+body{
+    background-image: url(./bckg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
